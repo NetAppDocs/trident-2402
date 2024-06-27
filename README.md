@@ -1,4 +1,4 @@
-# trident
+# trident 24.02
 Astra Trident Documentation
 
 Welcome to the documentation for the latest version of Astra Trident.
