@@ -8,10 +8,10 @@ settings:
     harmony_enabled: true
   rss_page: "trident-rn.html"
   versions:
+    - version-number: "24.02"
+      url: /trident-2402
     - version-number: "24.06"
       url: /trident 
-    - version-number: "24.02"
-      url: /trident-2402 
     - version-number: "23.10"
       url: /trident-2310   
     - version-number: "23.07"
@@ -22,6 +22,16 @@ settings:
       url: /trident-2301      
     - version-number: "22.10"
       url: /trident-2210      
+    - version-number: "22.07"
+      url: /trident-2207
+    - version-number: "22.04"
+      url: /trident-2204
+    - version-number: "22.01"
+      url: /trident-2201
+    - version-number: "21.10"
+      url: /trident-2110      
+    - version-number: "21.07"
+      url: /trident-2107                        
 sidebar:
   entries:
     - title: Astra Trident docs
