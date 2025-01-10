@@ -231,7 +231,7 @@ At either level, you can specify one of three different versions of Kerberos enc
 apiVersion: v1
 kind: Secret
 metadata:
-  name: backend-tbc-anf-secret
+  name: backend-tbc-secret
 type: Opaque
 stringData:
   clientID: <CLIENT_ID>
@@ -240,7 +240,7 @@ stringData:
 apiVersion: trident.netapp.io/v1
 kind: TridentBackendConfig
 metadata:
-  name: backend-tbc-anf
+  name: backend-tbc
 spec:
   version: 1
   storageDriverName: azure-netapp-files
@@ -257,7 +257,7 @@ spec:
   nasType: nfs
   kerberos: sec=krb5i #can be krb5, krb5i, or krb5p
   credentials:
-    name: backend-tbc-anf-secret
+    name: backend-tbc-secret
 ----
 --
 
@@ -268,7 +268,7 @@ spec:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: backend-tbc-anf-secret
+  name: backend-tbc-secret
 type: Opaque
 stringData:
   clientID: <CLIENT_ID>
@@ -277,7 +277,7 @@ stringData:
 apiVersion: trident.netapp.io/v1
 kind: TridentBackendConfig
 metadata:
-  name: backend-tbc-anf
+  name: backend-tbc
 spec:
   version: 1
   storageDriverName: azure-netapp-files
@@ -297,7 +297,7 @@ spec:
         type: encryption
       kerberos: sec=krb5i #can be krb5, krb5i, or krb5p
   credentials:
-    name: backend-tbc-anf-secret
+    name: backend-tbc-secret
 ----
 --
 ====
@@ -330,7 +330,7 @@ You can create a storage class to provision volumes with Kerberos encryption.
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
-  name: anf-sc-nfs
+  name: sc-nfs
 provisioner: csi.trident.netapp.io
 parameters:
   backendType: "azure-netapp-files"
@@ -342,20 +342,20 @@ parameters:
 +
 [source,console]
 ----
-kubectl create -f sample-input/storage-class-anf-sc-nfs.yaml
+kubectl create -f sample-input/storage-class-sc-nfs.yaml
 ----
 . Make sure that the storage class has been created:
 +
 [source,console]
 ----
-kubectl get sc anf-sc-nfs
+kubectl get sc sc-nfs
 ----
 +
 You should see output similar to the following:
 +
 ----
 NAME         PROVISIONER             AGE
-anf-sc-nfs    csi.trident.netapp.io   15h
+sc-nfs    csi.trident.netapp.io   15h
 ----
 
 === Provision volumes
