@@ -197,3 +197,9 @@ Bring up the dataLIFS to restore full functionality.
 
 .Workaround
 Add the `hostNQN` back to the subsystem.
+
+=== Deleted namespace mapping
+When using nvme/tcp in k8s environments with long node names, pods cannot attach to the storage.
+
+.Workaround
+Shorten the node name so that the subsystem name is less than 64 characters.
