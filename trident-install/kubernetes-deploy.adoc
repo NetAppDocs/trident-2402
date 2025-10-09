@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: trident-get-started/kubernetes-deploy.html
-keywords: deploy, astra trident, methods, operator, tridentctl, helm, tanzu, vmware
+keywords: deploy, astra trident, methods, operator, tridentctl, helm, tanzu, vmware, netapp console
 summary: You can install Astra Trident using the Trident operator (manually or using Helm) or with `tridentctl`. This topic provides important information for selecting the right installation process for you. 
 ---
 
