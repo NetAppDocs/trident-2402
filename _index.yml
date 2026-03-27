@@ -4,9 +4,7 @@ indexpage:
     - title: Release notes 
       links:
         - title: What’s new
-          url: trident-rn.html   
-        - title: Earlier versions
-          url: /earlier-versions.html   
+          url: trident-rn.html     
     - title: Get started
       links:
         - title: Learn about Astra Trident
