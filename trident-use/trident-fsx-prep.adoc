@@ -28,7 +28,7 @@ NOTE: Ensure you follow the node preparation steps required for Amazon Linux and
 WARNING: If you are configuring for SMB volumes, you must read <<Prepare to provision SMB volumes>> before creating the backend.
 
 .Steps
-. Deploy Astra Trident using one of the link:../trident-get-started/kubernetes-deploy.html[deployment methods].
+. Deploy Astra Trident using one of the link:../trident-install/kubernetes-deploy.html[deployment methods].
 . Collect your SVM management LIF DNS name. For example, using the AWS CLI, find the `DNSName` entry under `Endpoints` -> `Management` after running the following command:
 +
 ----
