@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: trident-get-started/kubernetes-deploy-helm.html
+permalink: trident-install/kubernetes-deploy-helm.html
 keywords: deploy, astra trident, operator, helm, helm chart, configuration, values, standard, registry
 summary: You can deploy the Trident operator and install Astra Trident using Helm. This process applies to installations where the container images required by Astra Trident are not stored in a private registry.
 ---

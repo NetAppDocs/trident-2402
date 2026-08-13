@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: trident-get-started/kubernetes-deploy-operator.html
+permalink: trident-install/kubernetes-deploy-operator.html
 keywords: deploy, astra trident, methods, operator, tridentctl, registry, registries
 summary: You can manually deploy the Trident operator to install Astra Trident. This process applies to installations where the container images required by Astra Trident are not stored in a private registry. 
 ---

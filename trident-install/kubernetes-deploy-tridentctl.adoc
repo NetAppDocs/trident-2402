@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: trident-get-started/kubernetes-deploy-tridentctl.html
+permalink: trident-install/kubernetes-deploy-tridentctl.html
 keywords: deploy, astra trident, methods, tridentctl, windows
 summary: You can install Astra Trident using `tridentctl`. This process applies to installations where the container images required by Astra Trident are stored either in a private registry or not.
 ---
