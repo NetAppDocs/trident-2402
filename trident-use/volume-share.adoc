@@ -151,5 +151,4 @@ Flags:
 == For more information
 To learn more about cross-namespace volume access:
 
-* Visit link:https://cloud.netapp.com/blog/astra-blg-sharing-volumes-between-namespaces-say-hello-to-cross-namespace-volume-access[Sharing volumes between namespaces: Say hello to cross-namespace volume access^].
-
+* Watch the demo on link:https://www.netapp.com/video/solutions-and-products/[NetAppTV^].
